@@ -1,0 +1,1059 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Modesy | Documentation</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css"
+          media="screen, projection">
+    <style type="text/css" media="screen">
+        body {
+            font-size: 14px;
+        }
+
+        p, table, hr, .box {
+            margin-bottom: 25px;
+        }
+
+        .box p {
+            margin-bottom: 10px;
+        }
+
+        .update-title {
+            font-weight: bold;
+        }
+
+        pre {
+            background-color: whitesmoke;
+            background-image: linear-gradient(#f5f5f5 50%, #e6e6e6 50%);
+            background-size: 38px 38px;
+            border: 1px solid #d4d4d4;
+            display: block;
+            line-height: 19px;
+            margin-bottom: 10px;
+            overflow-x: visible;
+            overflow-y: hidden;
+            padding: 0 0 0 4px;
+        }
+
+        img {
+            margin: 10px 0;
+        }
+
+        .bcolor {
+            color: #0d6aad;
+        }
+
+        .check {
+            font-style: normal;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+
+<body>
+<div class="container">
+
+    <h3 class="center alt">&ldquo;Modesy - Buy & Sell Used Products&rdquo; Documentation by &ldquo;Codingest&rdquo;
+        v1.0.1</h3>
+    <hr>
+
+    <h1 class="center">&ldquo;Modesy - Buy & Sell Used Products&rdquo;</h1>
+
+    <div class="borderTop">
+        <div class="span-6 colborder info prepend-1">
+            <p class="prepend-top">
+                <strong>
+                    Created: 12.10.2018<br>
+                    By: Codingest<br>
+                    Email: <a href="mailto:codingest@gmail.com">codingest@gmail.com</a>
+                </strong>
+            </p>
+        </div><!-- end div .span-6 -->
+
+        <div class="span-12 last">
+            <p class="prepend-top append-0">Thank you for purchasing my script. If you have any questions that are
+                beyond the scope of this help file, please feel free to email via
+                my user page contact form <a href="http://themeforest.net/user/codingest">here</a>. Thanks so much!</p>
+        </div>
+    </div><!-- end div .borderTop -->
+
+    <hr>
+
+    <h2 id="toc" class="alt">Table of Contents</h2>
+    <ol>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#files">Files</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="#image">Image Upload Settings</a></li>
+        <li><a href="#quick-start">Quick Start</a></li>
+        <li><a href="#admin">Admin Panel</a></li>
+        <li><a href="#slider">Slider</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#pages">Pages</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#payments">Payments</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#contact_messages">Contact Messages</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#users">Users</a></li>
+        <li><a href="#seo">Seo Tools</a></li>
+        <li><a href="#ads">Ad Spaces</a></li>
+        <li><a href="#location_settings">Location Settings</a></li>
+        <li><a href="#social_login">Social Login Configuration</a></li>
+        <li><a href="#language_settings">Language Settings</a></li>
+        <li><a href="#preferences">Preferences</a></li>
+        <li><a href="#visual">Visual Settings</a></li>
+        <li><a href="#email_settings">Email Settings</a></li>
+        <li><a href="#payment_settings">Payment Settings</a></li>
+        <li><a href="#settings">Settings</a></li>
+    </ol>
+
+    <hr>
+
+    <h3 id="introduction"><strong>1) Introduction</strong> - <a href="#toc">top</a></h3>
+    <p>
+        <strong>Modesy</strong> is an online store that you can sell and buy used products. It has clean, responsive and
+        user-friendly desing. You can manage almost everything in your site with its powerful Admin panel.
+        It is secure, SEO-optimized, fast, fully customizable and easy to use.
+    </p>
+    Technologies used:
+    <ul>
+        <li>
+            PHP CodeIgniter
+        </li>
+        <li>
+            HTML 5
+        </li>
+        <li>
+            CSS 3
+        </li>
+        <li>
+            Bootstrap 4
+        </li>
+        <li>
+            JQUERY
+        </li>
+        <li>
+            AJAX
+        </li>
+    </ul>
+    <strong>Key Features:</strong>
+    <ul>
+        <li>Clean and Responsive Design</li>
+        <li>Built Using Bootstrap 4</li>
+        <li>Totally Secure System</li>
+        <li>Seo Optimized</li>
+        <li>SEO-Friendly URL</li>
+        <li>10 Layout Colors</li>
+        <li>Multilingual System (Any language can be added easily)</li>
+        <li>Enable & Disable Option for Multilingual System</li>
+        <li>Editable & Sortable Navigation (With mega menu)</li>
+        <li>Responsive & Sortable Slider (With Show & Hide Option)</li>
+        <li>Promoted Products (With Enable & Disable Option)</li>
+        <li>Pending Products</li>
+        <li>Hidden Products</li>
+        <li>Product Location Map</li>
+        <li>Add, Edit, Delete Unlimited Product Categories</li>
+        <li>Accept Payments via PayPal</li>
+        <li>Accept Payments via Stripe</li>
+        <li>Accept Payments via Credit Card</li>
+        <li>Payment Settings (With Different Currencies Options)</li>
+        <li>Editable Daily and Monthly Pricing</li>
+        <li>Advance Search (Products and Members)</li>
+        <li>Filter & Sort Porducts</li>
+        <li>Member Profile Pages</li>
+        <li>Last Seen Time</li>
+        <li>Update Profile Information & Change Password</li>
+        <li>Location Settings & Social Links for Members</li>
+        <li>Favorites (Add & Remove from List)</li>
+        <li>Follow & Unfollow Members</li>
+        <li>Messages & Unfollow Members</li>
+        <li>Messaging System (With Notification)</li>
+        <li>Ask Question to Seller</li>
+        <li>Seller Widget</li>
+        <li>Related Products</li>
+        <li>Pageview Counts</li>
+        <li>Social Sharing</li>
+        <li>Lazy Image Loading</li>
+        <li>Blog Section</li>
+        <li>Add, Edit, Delete Unlimited Blog Posts</li>
+        <li>Add, Edit, Delete Unlimited Blog Categories</li>
+        <li>Dynamic Tag System for Blog Posts</li>
+        <li>Comment System for Blog Posts (With Enable & Disable Option)</li>
+        <li>Adding Unlimited Fully Editable Pages</li>
+        <li>Show & Hide Options for Page and Page Title</li>
+        <li>Editable Location Database</li>
+        <li>Multi-Countries and One Country Options (You can use only for your country)</li>
+        <li>Responsive Ad Spaces for Any Kind of Ad Codes (Including Adsense)</li>
+        <li>Create Ad Codes</li>
+        <li>Product Review System (With Enable & Disable Option)</li>
+        <li>Product Comment System (With Enable & Disable Option)</li>
+        <li>Newsletter</li>
+        <li>Manage Subscribers Emails</li>
+        <li>Send Email to Subscribers</li>
+        <li>Membership System with 2 Roles (Admin, Member)</li>
+        <li>Secure Authentication</li>
+        <li>Email Confirmation When Registering (With Enable & Disable Option)</li>
+        <li>Password Reset</li>
+        <li>Add New Administrators</li>
+        <li>Manage Registered Users</li>
+        <li>Ban User Accounts</li>
+        <li>Seo Tools</li>
+        <li>Download Sitemap.xml</li>
+        <li>Sitemap.xml Generator with Cron Job Function</li>
+        <li>Social Login (Facebook & Google)</li>
+        <li>Contact Page (With Google Map)</li>
+        <li>Send Contact Messages to Email Address</li>
+        <li>Manage Contact Messages</li>
+        <li>Editable Admin Panel Link</li>
+        <li>Editable Product Link Structure</li>
+        <li>Visual Settings</li>
+        <li>Change Logo, Favicon, Site Title, Site Description, etc. from Admin Panel</li>
+        <li>Google reCAPTCHA Integrated</li>
+        <li>Rich Text Editor</li>
+        <li>Cookie Warning for GDPR</li>
+        <li>Social Media Links</li>
+        <li>Google Analytics</li>
+        <li>Advanced Settings Options</li>
+        <li>Easy Installation Using Installation Wizard</li>
+        <li>Detailed Documentation</li>
+        <li>Runs on PHP 5.5+ (and PHP 7)</li>
+    </ul>
+    <br/>
+
+    <strong>Security:</strong>
+    <br/>
+    Modesy is a secure system. There are various mechanisms to secure application. These mechanisms are:
+    <ul>
+        <li>Cross-Site Request Forgery (CSRF) Prevention</li>
+        <li>Cross-Site Scripting (XSS) Prevention</li>
+        <li>Password Hashing</li>
+        <li>Avoiding SQL Injection</li>
+    </ul>
+
+    <br/>
+    <strong>Requirements:</strong>
+    <br/>
+    There are some requirements for Modesy to work on your server. These requirements are:
+    <ul>
+        <li>PHP >= 5.5</li>
+        <li>cURL PHP Extension</li>
+        <li>Mbstring PHP Extension</li>
+    </ul>
+    <hr>
+
+
+    <h3 id="files"><strong>2) Files</strong> - <a href="#toc">top</a></h3>
+
+    <strong>a) CSS Files</strong><br/>
+    <ul>
+        <li>
+            AdminLTE.min.css and _all-skins.min.css: Contains general css codes for admin panel.
+        </li>
+        <li>
+            bootstrap-toggle.min.css: Contains bootstrap toggle css codes.
+        </li>
+        <li>
+            custom.css: Contains css fixes for admin panel.
+        </li>
+        <li>
+            style.css: Contains main css codes.
+        </li>
+        <li>
+            colors css files: Contains color options.
+        </li>
+        <li>
+            Style.css file is separated into sections using:<br/><br/>
+
+            /* ============ 1. General layout CSS styles ============ */<br/>
+
+            code<br/>
+
+            /* ============ 2. Header ============ */<br/>
+
+            code<br/>
+
+            /* ============ 3. Slider ============ */<br/>
+
+            code<br/>
+
+            etc, etc.<br/>
+
+        </li>
+    </ul>
+
+
+    <strong>b) JavaScript Files</strong><br/>
+    <ul>
+        <li>jquery-3.3.1.min.js: Javascript library</li>
+        <li>
+            adminlte.js: This file contains general dashboard script codes.
+        </li>
+        <li>
+            bootstrap-toggle.min.js: Contains bootstrap toggle javascript codes.
+        </li>
+        <li>script.js: Contains custom script codes. There are custom functions and ajax post functions</li>
+        <li>jquery.cookie.js: JavaScript library for handling cookies</li>
+
+        <li>plugins.js: Contains javascript plugins for front-end.
+            <br/><br/>
+            Js files are separated into sections using:<br/>
+
+            //ajax post delete image<br/>
+            code<br/>
+
+            //datatable function<br/>
+
+            code<br/>
+
+            etc, etc.<br/>
+        </li>
+    </ul>
+
+    <strong>c) Plugins</strong>
+
+    Plugins used in application: <br/>
+    <ul>
+        <li>
+            <strong>jQuery</strong><br/>
+            jQuery is a Javascript library that greatly reduces the amount of code that you must write.
+        </li>
+        <li>
+            <strong>jQueryUI</strong><br/>
+            jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the
+            jQuery JavaScript Library.
+        </li>
+        <li>
+            <strong>Ckeditor</strong><br/>
+            CKEditor is a browser-based WYSIWYG content editor.
+        </li>
+        <li>
+            <strong>Datatables</strong><br/>
+            DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the
+            foundations of progressive enhancement, and will add<br/>
+            advanced interaction controls to any HTML table.
+        </li>
+        <li>
+            <strong>ICheck</strong><br/>
+            Highly customizable checkboxes and radio buttons.
+        </li>
+        <li>
+            <strong>Tagsinput</strong><br/>
+            jQuery plugin providing a Twitter Bootstrap user interface for managing tags
+        </li>
+        <li>
+            <strong>Magnific Popup</strong><br/>
+            Jquery Gallery plugin
+        </li>
+        <li>
+            <strong>Owl-Carousel</strong><br/>
+            Responsive jquery slider plugin
+        </li>
+        <li>
+            <strong>Sweetalert</strong><br/>
+            Jquery-confirm plugin
+        </li>
+    </ul>
+    <hr>
+
+
+    <h3 id="install"><strong>3) Install</strong> - <a href="#toc">top</a></h3>
+    <p> To Install Modesy:</p>
+    <p>
+        <strong style="color: #ba2816">
+            Note: Please check your PHP version before installing. In order for Modesy to work properly, your PHP
+            version should be at least 5.5. We recommend PHP 5.6 or PHP 7.0.
+        </strong><br><br>
+        <strong style="color: #ba2816">
+            Note: cURL PHP extension should be enabled in your server. If you get this error during installation
+            "<em>cURL is not available on your server! Please enable cURL to continue the installation.</em>", you should enable cURL on your server.<br>
+
+            You can enable it by adding "extension=php_curl.dll" line to your php.ini file. If you can not access your php.ini file please contact with your host service.
+        </strong>
+    </p>
+
+
+    <strong>1. Create a new Database with user that has all permissions.</strong>
+    <ul>
+        <li>Go to Cpanel and Click MySQL® Databases<br/>
+            <img src="assets/images/db_1.jpg" alt="" width="750">
+        </li>
+        <br/><br/>
+        <li>Create New Database
+            <br/>
+            <img src="assets/images/db_2.jpg" alt="" width="750">
+        </li>
+        <br/><br/>
+        <li>Add New User
+            <br/>
+            <img src="assets/images/db_3.jpg" alt="" width="750">
+        </li>
+        <br/><br/>
+        <li>Add User To Database
+            <br/>
+            <img src="assets/images/db_4.jpg" alt="" width="750">
+        </li>
+        <br/><br/>
+        <li>Set User Permissions
+            <br/>
+            <img src="assets/images/db_5.jpg" alt="" width="750">
+        </li>
+    </ul>
+
+    <strong> 2. Upload script files to your host(ftp).</strong><br/><br>
+    <strong>3. Run the Install file by entering this link to your browser address bar: http://yourdomain.com/install </strong><br/><br>
+    <strong> 4. Follow Steps in Installation Instructions.</strong><br/><br>
+    <ul>
+        <li>
+            <strong>Click "Get License Code" button and generate your license code (You can only get one license code with a purchase code).
+                Then enter your license code and then click Next.</strong> <br/><br/>
+
+            <strong style="color: #b53119">Also, if you want to test it on local server, you can generate a second license with "http://localhost" domain.</strong>
+            <br/>
+            <br>
+            <img src="assets/images/ins1.png" alt="" width="750">
+        </li>
+        <br/><br/>
+        <li><strong>Check your folder permissions. If all folders are writable, click Next</strong>
+            <img src="assets/images/ins2.png" alt="" width="750">
+        </li>
+        <br/><br/>
+
+        <li>
+            <strong>Enter your database credentials. Then click next.</strong><br/><br>
+            <img src="assets/images/ins3.png" alt="" width="750">
+            <br/><br/>
+
+
+            <strong style="color:#ba2816">***Note: If you want to change your database credentials later, you can edit the
+                database.php file in the application / config folder. </strong>
+        </li>
+        <br/><br/>
+
+        <li>
+            <strong>Enter your admin credentials. Then click finish.</strong><br/><br>
+            <img src="assets/images/ins4.png" alt="" width="750">
+            <br/><br/>
+        </li>
+        <br/><br/>
+        <br>
+        <strong> 5. Delete the install folder on the main directory.</strong><br/><br>
+        <br>
+    </ul>
+    <div style="width:100%;padding: 30px;list-style: none;">
+        <h3 style="text-align: center; color: #ba2816;font-weight: bold;">IMPORTANT</h3>
+        <p style="text-align: center;color: #ba2816;">After installation, if you get "404 Not Found" error or you can not login to your site, please check your main directory.
+            There should be a htaccess file. Otherwise your script will not work.
+            If you extract the zip file in your Cpanel, htaccess will not be copied due to security reasons. In this case you need to upload the htaccess file from script files.
+        </p>
+    </div>
+
+    <hr>
+
+    <h3 id="image"><strong>4) Image Upload Settings</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        Modesy performs image optimization while uploading. This optimization consumes memory.<br/><br/>
+
+        If you try to upload large images without doing some settings on your server, you can get an error.<br/><br/>
+
+        If you can't upload large images, you need to set these values. These are recommended minimum values.<br><br>
+
+        <strong>
+            php_value upload_max_filesize 32M<br>
+            php_value post_max_size 32M<br>
+            php_value memory_limit 256M<br>
+        </strong><br/><br/>
+
+        To set these values follow the steps:<br><br>
+
+    <ol>
+        <li>Go to your Cpanel and click "Select PHP Version"<br><br>
+            <img src="assets/images/image1.jpg" alt="" width="750"><br/><br/>
+        </li>
+        <li>Then click "Switch to PHP Options"<br><br>
+            <img src="assets/images/image2.jpg" alt="" width="750"><br/><br/>
+        </li>
+        <li>Then set the values "upload_max_filesize", "post_max_size" and "memory_limit" as you see in the picture.<br><br>
+            <img src="assets/images/image3.jpg" alt="" width="750"><br/><br/>
+        </li>
+    </ol>
+
+    <strong style="color:#ba2816">If you can not reach these settings, please contact your host administrator and ask
+        them to make these settings.</strong><br/><br/><br/><br/>
+    <hr>
+
+
+    <h3 id="quick-start"><strong>5) Quick Start</strong> - <a href="#toc">top</a></h3>
+    <p>
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Accessing Admin Panel:</strong> After installation, you will be redirected to home page. Login with your Admin email and password.
+        After login, you will see your username in the navigation, click your username and click "Admin Panel" link on the dropdown menu.<br><br>
+        <img src="assets/images/admin_link.png" alt="" style="width: 400px;"><br/><br/>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Updating Profile Information:</strong> Go to the main navigation, click your username and click "Settings" link on the dropdown menu.
+        In this page you can edit your Email Address, Username, Slug and you can add some text about yourself.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Changing Admin Password:</strong> Go to the main navigation, click your username and click "Settings" link on the dropdown menu. Then click "Change Password" tab. Fill in the form and change you password.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Updating Contact Information:</strong> Go to the main navigation, click your username and click "Settings" link on the dropdown menu.
+        Then click "Contact Informations" tab. Fill in the form and update your location information.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Adding Social Links to Your Profile:</strong> Go to the main navigation, click your username and click "Settings" link on the dropdown menu.
+        Then click "Social Media" tab. Fill in the form and update your social links.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp; Adding Slider Item :</strong> Open your Admin Panel, go to "Slider" section from navigation and click "Add Slider Item" link, then fill in the form and click Add Slider Item button.
+        Then click "Social Media" tab. Fill in the form and update your social links.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp; Adding Product :</strong> Click "Sell Now" button that in the main navigation, then fill in the form and click Submit button. Then select your Pricing plan and add your product.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp; Approving Product :</strong> Open your Admin Panel, go to "Products" section from navigation and click "Pending Products" link, find the product that will be approved. Then click "Select an option" button
+        and click "Approve" option.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Adding Product Category:</strong> Open your Admin Panel, go to "Categories" section from navigation and click "Add Category" link, then fill in the form and click Add Category button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Adding Page:</strong> Open your Admin Panel, go to "Pages" section from navigation and click "Add Page" link, then fill in the form and click Add Page button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Adding Blog Post:</strong> Open your Admin Panel, go to "Blog" section from navigation and click "Add Post" link, then fill in the form and click Add Post button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Adding Blog Category:</strong> Open your Admin Panel, go to "Blog" section from navigation and click "Categories" link, then fill in the "Add Category" form and click Add Category button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Send Email to Subscribers:</strong> Open your Admin Panel, go to "Newsletter" section from navigation, then fill in the mail form and click Send Email button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Social Login Configuration: </strong> Open your Admin Panel, go to "Social Login Configuration" section from navigation, then fill in the form and click Save Changes button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Generating Sitemap: </strong> Open your Admin Panel, go to "Seo Tools" section from navigation, then click Download Sitemap button. Also you can generate your sitemap directly in your FTP
+        by clicking Update Sitemap button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Running Ads: </strong> If you want to add your ad codes to your website, this is very easy in the Modesy. Open your Admin Panel, go to "Ad Spaces" section from navigation,
+        add your ad codes then click Save Changes button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Managing Locations: </strong> Modesy has editeble countries and states/cities database. You can manage your locations from Location Settings section. Open your Admin Panel, go to "Location Settings" section from navigation.
+        If you want to edit countries, click Countries link. If you want to edit states/cities, click States link.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Managing Languages: </strong> Open your Admin Panel, go to "Language Settings" section from navigation. If you want to add a new language, fill in the "Add Language" form and click Add Language button.
+        If you want to change default language, select the language from "Default Language" form and click Save Changes button. If you want to edit translations, find the language from "Languages" list and click
+        "Select an option" button, then click "Edit Translations" option and edit translations.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Making Email Settings: </strong> Open your Admin Panel, go to "Email Settings" section from navigation, then fill in the "Email Settings" form and click Save Changes button.
+        <br><br>
+
+        <strong><i class="check">&#x2713;</i>&nbsp;&nbsp;Making Payment Settings: </strong> Open your Admin Panel, go to "Payment Settings" section from navigation, then select options in the "Payment Settings" form and click Save Changes button.
+        You can manage daily and mounthly price from "Pricing" form. You can set your payment accounts in Paypal Account and Stripe Account forms.
+        <br><br>
+    </p>
+    <hr>
+
+
+    <h3 id="admin"><strong>6) Admin Panel</strong> - <a href="#toc">top</a></h3>
+    <p>
+        There are some counters in the Admin panel's home page. These counters:
+    <ol>
+        <li>Products: Shows products count</li>
+        <li>Pending Products: Shows pending products count</li>
+        <li>Blog Posts: Shows blog posts count</li>
+        <li>Members: Shows members count</li>
+    </ol>
+
+    In addition to these counters, there are also sections that show latest records:
+    <br>
+    <br>
+    <ol>
+        <li>Latest Pending Products: Shows last added pending products</li>
+        <li>Latest Products: Shows last approved products</li>
+        <li>Latest Payments: Shows last payments</li>
+        <li>Latest Reviews: Shows last added reviews</li>
+        <li>Latest Comments: Shows last registered members</li>
+    </ol>
+    <br><br>
+
+    <img src="assets/images/admin.png" alt="" width="750"><br/>
+
+    </p>
+    <hr>
+    <h3 id="slider"><strong>7) Slider</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can add, update and delete your slider banners from this section.<br><br>
+        <strong class="bcolor"> Add Slider Item: </strong> Go to "Slider" section from navigation and click Add Slider Item link. Then fill in the form.
+    <ul>
+        <li><b>Language: </b> Banner language. It will be displayed only selected language.</li>
+        <li><b>Link: </b> Banner link. This link will be open when banner is clicked.</li>
+        <li><b>Order: </b> Banner order.</li>
+        <li><b>Image: </b> Banner image.</li>
+    </ul>
+    <strong class="bcolor">Update Slider Item: </strong> Go to "Slider" section from navigation and click Slider Items link. Find slider item that you want to edit and select "Edit" option by clicking "Select an option" button.
+    Then make your edits and click "Save Changes" button.<br><br>
+    <strong class="bcolor">Delete Slider Item: </strong> On the same list you can delete slider items by selecting "Delete" option for each item.
+
+    </p>
+    <hr>
+
+
+    <h3 id="products"><strong>8) Products</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can manage products from this section.<br/><br/>
+
+        <strong class="bcolor">Products: </strong> You can see approved products from this page.<br>
+        <strong class="bcolor">Promoted Products: </strong> You can see approved promoted products from this page.<br>
+        <strong class="bcolor">Pending Products: </strong> You can see pending products (vaiting for approval) from this page.<br>
+        <strong class="bcolor">Hidden Products: </strong> You can see hidden products from this page.<br><br>
+        <strong class="bcolor">Options: </strong> You can see options by clicking "Select an option" button on each page.<br>
+    <ul>
+        <li><strong>View Details</strong>: You can see all details of a product by selecting this option.</li>
+        <li><strong>Add to Promoted</strong>: You can add a product to promoted products by selecting this option.</li>
+        <li><strong>Edit</strong>: You can edit a product by selecting this option.</li>
+        <li><strong>Delete</strong>: You can delete a product by selecting this option.</li>
+        <li><strong>Remove from Promoted</strong>: You can remove a product from promoted products by selecting this option.</li>
+        <li><strong>Approve</strong>: You can approve a product by selecting this option.</li>
+    </ul>
+    <br><br>
+    </p>
+    <hr>
+
+
+    <h3 id="categories"><strong>9) Categories</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can add, update or delete categories from this section.<br/><br>
+        <strong class="bcolor">Add Category: </strong> Go to "Categories" section from navigation and click Categories. Then fill in the Add Category form.
+    <ul>
+        <li><b>Category Name: </b> Category name. You should enter according to language.</li>
+        <li><b>Slug: </b> Slug for SEO friendly url. You can add custom slug. If you leave it empty, it will be generated automatically.</li>
+        <li><b>Description: </b> You can add Description (Meta Tag) for category.</li>
+        <li><b>Keywords: </b> You can add Keywords (Meta Tag) for category.</li>
+        <li><b>Order: </b> Your categories will be listed according to this order.</li>
+        <li><b>Homepage Order: </b> Your featured categories will be listed according to this order.</li>
+        <li><b>Parent Category: </b> You can select a top (parent) category.</li>
+        <li><b>Visibility: </b> You can hide and show a cateogory with this option.</li>
+        <li><b>Show on Homepage: </b> You can add your cateory to featured categories with this option.</li>
+        <li><b>Image: </b> Category image.</li>
+    </ul>
+    <strong class="bcolor">Update Category: </strong> Go to "Categories" section from navigation and click Categories link. Find category that you want to edit and select "Edit" option by clicking "Select an option" button.
+    Then make your edits and click "Save Changes" button.<br><br>
+    <strong class="bcolor">Delete Category: </strong> On the same list you can delete categories by selecting "Delete" option for each category.
+    <br><br>
+    </p>
+    <hr>
+
+
+    <h3 id="pages"><strong>10) Pages</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can add, update and delete pages from this section.<br><br>
+
+        <strong class="bcolor"> Add Page: </strong> Go to "Pages" section from navigation and click Add Page link. Then fill in the form.
+    <ul>
+        <li><b>Title: </b> Page title.</li>
+        <li><b>Slug: </b> Slug for SEO friendly url. You can add custom slug. If you leave it empty, it will be generated automatically.</li>
+        <li><b>Description: </b> You can add Description (Meta Tag) for page.</li>
+        <li><b>Keywords: </b> You can add Keywords (Meta Tag) for page.</li>
+        <li><b>Language: </b> Page will be displayed according to this language</li>
+        <li><b>Order: </b> Pages will order according to this value.</li>
+        <li><b>Location: </b> You can select page link location.</li>
+        <li><b>Visibility: </b> You can hide or show page.</li>
+        <li><b>Content: </b> Page content.</li>
+    </ul>
+    <strong class="bcolor">Update Page: </strong> Go to "Pages"" section from navigation and click "Pages" link. Find page that you want to edit and select "Edit" option by clicking "Select an option" button.
+    Then make your edits and click "Save Changes" button.<br><br>
+    <strong class="bcolor">Delete Page: </strong> On the same list you can delete pages by selecting "Delete" option for each page.
+    </p>
+    <hr>
+
+
+    <h3 id="blog"><strong>11) Blog</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can manage blog posts and blog categories from this section.<br><br>
+
+        <strong class="bcolor"> Add Blog Post: </strong> Go to "Blog" section from navigation and click Add Post link. Then fill in the form.
+    <ul>
+        <li><b>Title: </b> Post title</li>
+        <li><b>Slug: </b> Slug for SEO friendly url. You can add custom slug. If you leave it empty, it will be generated automatically.</li>
+        <li><b>Summary & Description: </b> You can add Summary & Description (Meta Tag) for post</li>
+        <li><b>Keywords: </b> You can add Keywords (Meta Tag) for page</li>
+        <li><b>Language: </b> Post will be displayed according to this language</li>
+        <li><b>Category: </b> Post category</li>
+        <li><b>Tags: </b> You can add tags for post</li>
+        <li><b>Image: </b> Post image</li>
+        <li><b>Content: </b> Page content</li>
+    </ul>
+    <strong class="bcolor">Update Blog Post: </strong> Go to "Blog" section from navigation and click "Posts" link. Find page that you want to edit and select "Edit" option by clicking "Select an option" button.
+    Then make your edits and click "Save Changes" button.<br><br>
+    <strong class="bcolor">Delete Page: </strong> On the same list you can delete posts by selecting "Delete" option for each post.
+    <br><br>
+    <strong class="bcolor">Add Category: </strong> Go to "Blog" section from navigation and click Categories. Then fill in the Add Category form.
+    <ul>
+        <li><b>Language: </b> Category will be displayed according to this language</li>
+        <li><b>Category Name: </b> Category name</li>
+        <li><b>Slug: </b> Slug for SEO friendly url. You can add custom slug. If you leave it empty, it will be generated automatically.</li>
+        <li><b>Description: </b> You can add Description (Meta Tag) for category.</li>
+        <li><b>Keywords: </b> You can add Keywords (Meta Tag) for category.</li>
+        <li><b>Order: </b> Your categories will be listed according to this order.</li>
+    </ul>
+    <strong class="bcolor">Update Category: </strong> Go to "Blog" section from navigation and click Categories link. Find category that you want to edit and select "Edit" option by clicking "Select an option" button.
+    Then make your edits and click "Save Changes" button.<br><br>
+    <strong class="bcolor">Delete Category: </strong> On the same list you can delete categories by selecting "Delete" option for each category.
+    </p>
+    <hr>
+
+
+    <h3 id="payments"><strong>12) Payments</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can see all payments from this section. If you want to see all details of a payment, you can click
+        "Details" button.
+        <br/><br/>
+    </p>
+    <hr>
+
+
+    <h3 id="reviews"><strong>13) Reviews</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can see all reviews users made from this section. If you want to delete a review, you can select "Delete" option by clicking "Select an option" button.
+        <br/><br/>
+    </p>
+    <hr>
+
+
+    <h3 id="comments"><strong>14) Comments</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can see all product and blog comments from this section. If you want to delete a comment, you can select "Delete" option by clicking "Select an option" button.
+        <br/><br/>
+    </p>
+    <hr>
+
+
+    <h3 id="contact_messages"><strong>15) Contact Messages</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can see contact messages that sent from contact page in this section. If you want to delete a message, you can select "Delete" option by clicking "Select an option" button.
+        <br/><br/>
+    </p>
+    <hr>
+
+
+    <h3 id="newsletter"><strong>16) Newsletter</strong> - <a href="#toc">top</a></h3>
+    <p>
+        The Newsletter allows you to share some updates and interesting things with the subscribers.<br/>
+        You can see the all registered emails and you can send an email to these emails from this section.<br/>
+        If you want to delete an email, you can select "Delete" option by clicking "Select an option" button.<br/>
+    </p>
+    <hr>
+
+
+    <h3 id="users"><strong>17) Users</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        You can manage administrators and members from this section.<br/><br>
+
+        <strong class="bcolor"> Add Administrator: </strong> Go to "Users" section from navigation and click Add Administrator link. Then fill in the form.<br><br>
+        <strong class="bcolor">Options: </strong>
+    <ul>
+        <li><b>Ban User: </b> If you want to ban a member, you can select "Ban User" option by clicking "Select an option" button.</li>
+        <li><b>Delete: </b> If you want to delete a member, you can select "Delete" option by clicking "Select an option" button.</li>
+    </ul>
+    <br><br>
+    </p>
+    <hr>
+
+
+    <h3 id="seo"><strong>18) Seo Tools</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can make your SEO settings from this section.<br/>
+    <ul>
+        <li><b>Site Title: </b> Site title.</li>
+        <li><b>Home Title: </b> Homepage title.</li>
+        <li><b>Site Description: </b> Site description</li>
+        <li><b>Keywords: </b> Site keywords</li>
+        <li><b>Google Analytics: </b> You can add your Google Analytics code from here.</li>
+    </ul>
+    <strong class="bcolor">Generate Sitemap: </strong> You can generate a sitemap.xml file from this section.<br><br>
+
+    <h3><strong style="color: #c53f45;">Update Your Sitemap with Cron Job</strong></h3>
+    You can set a cron job to update your sitemap.
+    Follow the steps:<br/><br/>
+    <strong>Step 1: Go to your Cpanel and click cron jobs.</strong><br/>
+    <img src="assets/images/cron1.jpg" alt="" width="650"><br/><br/>
+    <strong>Step 2: Add new cron job.</strong><br/><br/>
+    Select an option.<br/>
+    <img src="assets/images/cron2.jpg" alt="" width="450"><br/><br/>
+    <br/>
+    Then paste this command to command line: <br/><br>
+    <strong style="color:#3c8dbc">wget -O /dev/null http://yourdomain.com/cron/update-sitemap</strong><br/><br/>
+
+    Then click Add New Cron Job button. Once you have done this, your sitemap automatically will be created in you main directory.
+    <br/><br/>
+    </p>
+    <hr>
+
+
+    <h3 id="ads"><strong>19) Ad Spaces</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can manage your ad codes from this section.<br/>
+        Modesy has responsive ad spaces, you need to enter the code at different sizes for each ad space.<br/>
+        If you do not have an ad code, you can create your own ad code by uploading an image and entering a link for the ad.<br><br>
+        <strong class="bcolor">728x90 Banner: </strong>This ad will be shown on screens larger than 1200px<br>
+        <strong class="bcolor">468x60 Banner: </strong>This ad will be shown on screens larger than 576px and smaller than 1200px<br>
+        <strong class="bcolor">160x600 Banner: </strong>This ad will be shown on screens larger than 768px<br>
+        <strong class="bcolor">300x250 Banner: </strong>This ad will be shown on screens larger than 768px<br>
+        <strong class="bcolor">250x250 Banner: </strong>This ad will be shown on screens smaller than 576px<br>
+    </p>
+    <hr>
+
+
+    <h3 id="location_settings"><strong>20) Location Settings</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can manage countries and states/cities from this section.<br><br>
+
+        <strong class="bcolor"> Product Location: </strong> If you want to allow adding products from one country, you can select
+        this country from "Location Settings" form.<br>
+        <strong class="bcolor"> Countries: </strong> You can add, edit and delete countries from this section.<br>
+        <strong class="bcolor"> States: </strong> You can add, edit and delete states/cities from this section.
+        <br><br>
+    </p>
+    <hr>
+
+
+    <h3 id="social_login"><strong>21) Social Login Configuration</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can make your social login settings from this section.<br/>
+        To use Facebook login and Google login on your site, you should create an app and enter app id and app secret
+        from this form.<br/><br>
+
+        <strong>Facebook Login:</strong><br>
+    <ol>
+        <li>Go to <a href="https://developers.facebook.com/" target="_blank">https://developers.facebook.com/</a></li>
+        <li>Click Add a New App<br><img src="assets/images/facebook1.png" alt="" width="700"></li>
+        <li>Fill in the form then click Create App ID<br><img src="assets/images/facebook2.png" alt="" width="700"></li>
+        <li>Then select Facebook Login with clicking Set Up from Select a product section. <br><img src="assets/images/facebook3.png" alt="" width="700"></li>
+        <li>Select web as platform. <br><img src="assets/images/facebook4.png" alt="" width="700"></li>
+        <li>Enter your site url and click save. <br><img src="assets/images/facebook5.png" alt="" width="700"></li>
+        <li>Then click Settings > Basic from left navigation. Enter your App Domains, Privacy Policy URL and select your category. Click Save Changes. <br><img src="assets/images/facebook6.png" alt="" width="700"></li>
+        <li>Then click Facebook Login > Settings from left navigation. Enter your domain <b>"https://yourdomain.com"</b> to Valid OAuth Redirect URIs field. Click Save Changes.<br><img src="assets/images/facebook7.png" alt="" width="700"></li>
+        <li>Then click App Review from left navigation. And make your app public. Turn it to Yes. <br><img src="assets/images/facebook8.png" alt="" width="700"></li>
+        <li>Your app is ready. Go to Settings > Basic and get your App ID and App Secret. <br><img src="assets/images/facebook9.png" alt="" width="700"></li>
+    </ol>
+    <br>
+    <strong>Google Login:</strong><br>
+    <ol>
+        <li>Go to <a href="https://console.developers.google.com/apis/dashboard" target="_blank">https://console.developers.google.com/</a><br></li>
+        <li>Click Enable APIs and Services <br><img src="assets/images/google1.png" alt="" width="700"><br></li>
+        <li>Select Google+ API <br><img src="assets/images/google2.png" alt="" width="700"><br></li>
+        <li>Click Enabled Button<br><img src="assets/images/google3.png" alt="" width="700"><br></li>
+        <li>Then click CREATE CREDENTIALS button.
+            <img src="assets/images/google4.png" alt="" width="700"><br><br>
+        </li>
+        <li>Select options. "Then click What credentials do I need?" button.<br><img src="assets/images/google5.png" alt="" width="700"><br></li>
+        <li>Add your domain to fields in the form. Then click Create OAuth client ID button.<br><img src="assets/images/google6.png" alt="" width="700"><br></li>
+        <li>Add your application name and click Continue button.<br><img src="assets/images/google7.png" alt="" width="700"></li>
+        <li>Click your application name and get your API keys.<br>
+            <img src="assets/images/google8.png" alt="" width="700"><br>
+            <img src="assets/images/google9.png" alt="" width="700">
+        </li>
+    </ol>
+    </p>
+    <hr>
+
+
+    <h3 id="language_settings"><strong>22) Language Settings</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can manage your language settings from this section.<br/><br>
+        <strong class="bcolor">Default Language: </strong>You can change your site default language from this form.<br>
+        <strong class="bcolor">Add Language: </strong>You can add a new language from this form.<br>
+        <strong class="bcolor">Languages: </strong>You can see your languages on this table and you can update or delete a language.
+        Also you can edit all translations in your language. To open translation page, select "Edit Translations" option by clicking "Select an option" button.
+        <br><br>
+    </p>
+    <hr>
+
+
+    <h3 id="preferences"><strong>23) Preferences</strong> - <a href="#toc">top</a></h3>
+    <p>
+        In this section you can make general preferences for your site.
+    <ul>
+        <li><b>Promoted Products: </b> If you don't want promoted products in your site, you can select disable option.</li>
+        <li><b>Multilingual System: </b> You can enable or disable multilingual system with this option.</li>
+        <li><b>Product Reviews: </b> You can enable or disable product review system with this option.</li>
+        <li><b>Product Comments: </b> You can enable or disable product comment system with this option.</li>
+        <li><b>Blog Comments: </b> You can enable or disable blog comment system with this option.</li>
+        <li><b>Confirm Member Mails When Registering: </b> You can enable or disable email confirmation system with this option.</li>
+        <li><b>Index Slider: </b> You can show or hide index slider section with this option.</li>
+        <li><b>Index Categories: </b> You can show or hide index categories section with this option.</li>
+        <li><b>Index Promoted Products: </b> You can show or hide index promoted products section with this option.</li>
+        <li><b>Index Latest Products: </b> You can show or hide index latest products section with this option.</li>
+        <li><b>Index Blog Slider: </b> You can show or hide index blog slider section with this option.</li>
+        <li><b>Product Link Structure: </b> You can select product URL structure with this option.</li>
+        <li><b>Admin Panel Link: </b> You can change default admin URL with this field.</li>
+        <li><b>Index Number of Promoted Products: </b> You can set number of promoted products that will be displayed on the index page with this field.</li>
+        <li><b>Index Number of Latest Products: </b> You can set number of latest products that will be displayed on the index page with this field.</li>
+    </ul>
+    </p>
+    <hr>
+
+
+    <h3 id="visual"><strong>24) Visual Settings</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can make your visual settings from this section. You can change your site color, logo and favicon from this section.<br/>
+    </p>
+    <hr>
+
+
+    <h3 id="email_settings"><strong>25) Email Settings</strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can make your email settings from this section.<br/>
+    <ul>
+        <li><b>Mail Protocol: </b> Your mail protocol (SMTP or Mail). Default SMTP. But some mail servers use Mail protocol. In this case you should set this value to Mail.</li>
+        <li><b>Mail Title: </b> Your email title</li>
+        <li><b>Mail Host: </b> Your mail server (Exp: mail.example.com)</li>
+        <li><b>Mail Port: </b> Your mail port (Default: 587)</li>
+        <li><b>Mail Username: </b> Your username (Exp: mail@example.com)</li>
+        <li><b>Mail Password: </b> Your password</li>
+    </ul>
+    <span style="color: #b53119">
+        If you want to use Gmail SMTP service, you should make your settings like this:<br>
+        Mail Host:  smtp.gmail.com<br>
+        Mail Port:  587<br><br>
+
+        1. You should allow less secure devices from this url: <a href="https://myaccount.google.com/lesssecureapps" target="_blank">https://myaccount.google.com/lesssecureapps</a><br><br>
+        2. Go to settings in your Gmail account and click "Forwarding and POP/IMAP" tab.
+        <br><img src="assets/images/gmail1.png" alt="" width="700"><br><br>
+        3. Select Enable IMAP option.
+            <br><img src="assets/images/gmail2.png" alt="" width="700"><br><br>
+
+        After these settings you can use Gmail to send emails.
+    </span>
+
+    <br><br>
+    <strong>
+        If you want to send contact messages to your email address, you can select "Yes" for "Send Contact Messages to Email Address" option and add your email to "Contact Messages" form.
+    </strong>
+
+    </p>
+    <hr>
+
+    <h3 id="payment_settings"><strong>26) Payment Settings </strong> - <a href="#toc">top</a></h3>
+    <p>
+        You can make your payment settings from this section.<br/><br>
+        <strong class="bcolor">Payment Settings: </strong><br>
+    <ul>
+        <li><b>Currency: </b> Curreny for the promoted payments.</li>
+        <li><b>Paypal: </b> You can enable disable Paypal with this option.</li>
+        <li><b>Stripe: </b> You can enable disable Stripe with this option.</li>
+    </ul>
+    <strong class="bcolor">Pricing: </strong><br><br>
+    <ul>
+        <li><b>Price Per Day: </b> This is the promoted price for one day.</li>
+        <li><b>Price Per Month: </b> This is the promoted price for one month.</li>
+    </ul>
+    <strong class="bcolor">Paypal Account: </strong><br><br>
+    <ul>
+        <li><b>Store Name: </b> Store name will be shown on Paypal payment page.</li>
+        <li><b>Client ID: </b> You should add your Paypal API Client ID here.</li>
+        <li><b>Client Secret: </b> You should add your Paypal API Client Secret here.</li>
+    </ul>
+
+    <strong>Paypal API: </strong>
+    <ol>
+        <li>Create your Paypal seller account.</li>
+        <li>Go to this url: <a href="https://developer.paypal.com" target="_blank">https://developer.paypal.com</a></li>
+        <li>Login to your account and click "My Apps & Credentials" from left menu. Then click "Create App" button.
+            <br><img src="assets/images/paypal1.png" alt="" width="700"><br>
+        </li>
+        <li>Enter your app name and click "Create App" button.
+            <br><img src="assets/images/paypal2.png" alt="" width="700"><br>
+        </li>
+        <li>Click "Live" tab.
+            <br><img src="assets/images/paypal3.png" alt="" width="700"><br>
+        </li>
+        <li>Your API is ready. You can use these credentials.
+            <br><img src="assets/images/paypal4.png" alt="" width="700"><br>
+        </li>
+    </ol>
+    <strong class="bcolor">Stripe Account: </strong><br><br>
+    <ul>
+        <li><b>Store Name: </b> Store name will be shown on Stripe payment modal.</li>
+        <li><b>Publishable Key: </b> You should add your Stripe API Publishable Key here.</li>
+        <li><b>Secret Key: </b> You should add your Stripe API Secret Key here.</li>
+    </ul>
+    <strong>Stripe API: </strong>
+    <ol>
+        <li>Log in to your Stripe dashboard.</li>
+        <li>Go to API in the left menu.<br><img src="assets/images/stripe1.png" alt=""><br></li>
+        <li>Your secret and publishable keys should be on this page. Before using generated secret keys you will need to use the toggle switch that says “Viewing test data”. You have to set it to ”Viewing live data”.<br><img src="assets/images/stripe2.png" alt="" width="700"><br></li>
+        <li>Click "Reveal live key token".<br><img src="assets/images/stripe3.png" alt="" width="700"><br></li>
+    </ol>
+
+    </p>
+    <hr>
+
+
+    <p>
+
+    <h3 id="settings"><strong>27) Settings</strong> - <a href="#toc">top</a></h3>
+
+    <p>
+        <strong class="bcolor">Genaral Settings:</strong> Go to "Settings" section from navigation.<br/>
+        You can make your site settings from this section.
+    <ul>
+        <li><b>Timezone: </b> You can set your timezone with this field.</li>
+        <li><b>Application Name: </b> Site name.</li>
+        <li><b>Footer About Section: </b> About your site. This will be shown in the footer.</li>
+        <li><b>Copyright: </b> You can update copyright section from here.</li>
+    </ul>
+    <br/>
+    <strong class="bcolor">Contact Settings:</strong><br/>
+    <ul>
+        <li><b>Address: </b> Contact address</li>
+        <li><b>Email Address: </b> Contact email address. Contact messages will be sent to this email.</li>
+        <li><b>Phone: </b> Contact phone number</li>
+        <li><b>Contact Text: </b> You can add some text about contact.</li>
+    </ul>
+    <strong class="bcolor">Social Media Settings:</strong> You can add your site social links from this section.<br><br>
+    <strong class="bcolor">HTML Head Code:</strong> You can add your custom HTML, CSS, JavaScript codes from this section. Your codes will be placed in head tags.<br><br>
+    <li>
+        <strong>HTML Head Code:</strong><br/>
+        You can add your custom HTML, CSS, JavaScript codes from this section. Your codes will be placed in head tags.<br><br>
+    </li>
+    <li>
+        <strong>Cookies Warning:</strong><br/>
+        You can show a warning for using cookies from this section.<br><br>
+    </li>
+
+    <li>
+        <strong>Google reCAPTCHA</strong><br/>
+        Modesy uses Google reCAPTCHA to protect website from spam and abuse. To enable this feature go to this link: <a href="https://www.google.com/recaptcha/intro/v3beta.html">https://www.google.com/recaptcha/intro/v3beta.html</a> and get your Site Key and Secret Key. Then add your api keys from this form.<br><br>
+    </li>
+
+    </p>
+
+    <br><br><br><br><br>
+    <p>Once again, thank you for purchasing this script. As I said at the beginning, I'd be glad to help you if you have
+        any questions relating to this script. I'll do my best to assist.</p>
+
+    <p class="append-bottom alt large"><strong>Codingest</strong></p>
+    <p><a href="#toc">Go To Table of Contents</a></p>
+
+    <hr class="space">
+</div><!-- end div .container -->
+</body>
+</html>

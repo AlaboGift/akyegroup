@@ -1,0 +1,19 @@
+**Modesy - Buy & Sell Used Products**
+
+Updating from v1.0 to v1.0.1
+
+
+***Database has not changed.
+
+1. Update all files in your FTP with the files in the "modesy" folder, except the "uploads" folder and "application/language" folder. 
+
+2. After updating all files, open application / config / database.php file and enter your database credentials.
+
+   	$db['default']['username'] = ''; => You database user 
+	$db['default']['password'] = ''; => You database password
+	$db['default']['database'] = ''; => You database name
+
+
+
+
+
